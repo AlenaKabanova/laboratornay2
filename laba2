@@ -1,0 +1,4 @@
+ssh systemctl start ssh #подключение к серверу по ssh
+ssh user_name@ip_address #подключение к пользователю по ssh
+scp /home/user_name/name_of_zip_file.tar.gz your_user_name@your_ip_address:/home/your_user_name #копирование нужного файла к себе в домашнюю папку
+exit #выход из user репозитория
